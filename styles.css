@@ -1,0 +1,500 @@
+/* Firstpage */
+
+.main{
+
+    margin-left: -50px;
+}
+
+.navbar{
+
+    height: 30px;
+    width: 800px;
+    
+    background: radial-gradient(at 27.039556858793944% 49.872697504762776%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 99.0082892251624% 32.50683186590735%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%), radial-gradient(at 98.78686439274787% 44.730245669865724%, hsla(223.1020408163265, 100%, 51.9607843137255%, 1) 0%, hsla(223.1020408163265, 100%, 51.9607843137255%, 0) 100%), radial-gradient(at 56.99257672748694% 20.769820041111263%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 61.05004863915341% 36.36207460789087%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%), radial-gradient(at 32.279212374279695% 16.93903461224846%, hsla(223.1020408163265, 100%, 51.9607843137255%, 1) 0%, hsla(223.1020408163265, 100%, 51.9607843137255%, 0) 100%), radial-gradient(at 47.66104666768941% 33.277319242592554%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 28.805813957288418% 84.35103327808365%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%), radial-gradient(at 28.908128236576434% 76.41028479134842%, hsla(223.1020408163265, 100%, 51.9607843137255%, 1) 0%, hsla(223.1020408163265, 100%, 51.9607843137255%, 0) 100%), radial-gradient(at 79.84564015946579% 82.8924792025433%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 26.723211536869908% 13.486840938556188%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%);            
+    border-radius: 50px;
+
+    margin-left: 380px;
+
+    margin-top: 10px;
+    border: .5px solid rgb(189, 11, 189);
+
+
+}
+
+body{
+
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2b2a2a, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0e0e0e, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navtext{
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 15px;
+    margin-left: 130px;
+
+    
+   
+}
+.nav-link {
+    
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s ease-in-out; /* Smooth transition effect */
+    
+}
+
+.nav-link:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+                 0 0 20px rgba(255, 255, 255, 0.6), 
+                 0 0 30px rgba(255, 255, 255, 0.4);
+}
+
+.laptop{
+
+    height: 1200px;
+    width: 1400px;
+    margin-top: -230px;
+    margin-left: 70px;
+}
+
+.homeimg1 {
+    height: 370px;
+    width: 310px;
+    border-radius: 40%;
+    box-shadow: 0 0 6px rgba(165, 115, 235, 0.9), 
+                0 0 15px rgba(138, 43, 226, 0.8), 
+                0 0 30px rgba(75, 0, 130, 0.7); /* Layered Glow */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.homeimg1:hover {
+    box-shadow: 0 0 35px rgba(165, 115, 235, 1), 
+                0 0 70px rgba(138, 43, 226, 0.9), 
+                0 0 140px rgba(75, 0, 130, 0.8);
+}
+
+.homimg{
+
+
+    margin-top: -800px;
+    margin-left: 350px;
+}
+
+.name,.name1{
+
+
+     font-family: 'Orbitron', sans-serif;
+     text-transform: uppercase;
+     color: white;
+     
+     
+     
+}
+
+
+
+.name {
+    font-size: 50px;
+    color: #4800ff; 
+    background-image: linear-gradient(45deg, #4100f3 11%, #d637fa 82%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    
+    
+    
+   
+   
+}
+
+.line{
+
+    background-color: white;
+    height: 1px;
+    width: 420px;
+    margin-left: -2px;
+    margin-top: -20px;
+}
+
+
+
+
+.name1{
+
+    font-size: 20px;
+    margin-top: -15px;
+
+}
+
+.p{
+
+    font-family: 'Orbitron', sans-serif;
+    
+     color: white;
+     
+     font-size: 15px;
+     text-align: justify;
+     
+
+}
+
+.homeimgtext{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: -350px;
+    margin-left: 350px;
+    
+
+
+}
+
+.but{
+
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background: radial-gradient(at 27.039556858793944% 49.872697504762776%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 99.0082892251624% 32.50683186590735%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%), radial-gradient(at 98.78686439274787% 44.730245669865724%, hsla(223.1020408163265, 100%, 51.9607843137255%, 1) 0%, hsla(223.1020408163265, 100%, 51.9607843137255%, 0) 100%), radial-gradient(at 56.99257672748694% 20.769820041111263%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 61.05004863915341% 36.36207460789087%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%), radial-gradient(at 32.279212374279695% 16.93903461224846%, hsla(223.1020408163265, 100%, 51.9607843137255%, 1) 0%, hsla(223.1020408163265, 100%, 51.9607843137255%, 0) 100%), radial-gradient(at 47.66104666768941% 33.277319242592554%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 28.805813957288418% 84.35103327808365%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%), radial-gradient(at 28.908128236576434% 76.41028479134842%, hsla(223.1020408163265, 100%, 51.9607843137255%, 1) 0%, hsla(223.1020408163265, 100%, 51.9607843137255%, 0) 100%), radial-gradient(at 79.84564015946579% 82.8924792025433%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 26.723211536869908% 13.486840938556188%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%);            
+    border-radius: 50px;
+    border: 1px solid purple;
+    font-family: 'Orbitron', sans-serif;
+     text-transform: uppercase;
+
+     
+
+
+}
+
+.but:hover{
+
+    background-color: white;
+    background: white;
+    color: black;
+    box-shadow: 0 0 35px rgba(165, 115, 235, 1), 
+    0 0 70px rgba(138, 43, 226, 0.9), 
+    0 0 140px rgba(75, 0, 130, 0.8);
+}
+
+
+
+
+/* Projects page  */
+
+
+.project1{
+
+
+    width: 400px;
+    height: 400px;
+                                                  background: radial-gradient(at 13.673518488594926% 75.65585229687053%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 48.761624470356836% 76.89432716721691%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%), radial-gradient(at 43.813028884863826% 20.033011484745856%, hsla(240.98360655737704, 100%, 11.96078431372549%, 1) 0%, hsla(240.98360655737704, 100%, 11.96078431372549%, 0) 100%), radial-gradient(at 94.19706276357569% 38.317956222506396%, hsla(240.68965517241378, 100%, 17.058823529411764%, 1) 0%, hsla(240.68965517241378, 100%, 17.058823529411764%, 0) 100%), radial-gradient(at 0.3693776164962026% 73.84858190557478%, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 0) 100%), radial-gradient(at 8.583550172547149% 84.3678773561652%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 97.34311519480674% 52.53353856544179%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%), radial-gradient(at 84.33451161406838% 54.54596788280699%, hsla(240.98360655737704, 100%, 11.96078431372549%, 1) 0%, hsla(240.98360655737704, 100%, 11.96078431372549%, 0) 100%), radial-gradient(at 82.57971760010247% 80.42416195752358%, hsla(240.68965517241378, 100%, 17.058823529411764%, 1) 0%, hsla(240.68965517241378, 100%, 17.058823529411764%, 0) 100%), radial-gradient(at 56.39921139609845% 52.188527319376334%, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 0) 100%), radial-gradient(at 70.29480573450981% 48.60416643375902%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 54.343717330470454% 64.62511541682892%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%);            ;
+
+      border-radius: 30px;
+      margin-top: 100px;
+      border: .5PX solid #8c25bb;
+
+                                                }
+
+
+.project2{
+
+
+                                                    width: 400px;
+                                                    height: 400px;
+                                                                                                  background: radial-gradient(at 13.673518488594926% 75.65585229687053%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 48.761624470356836% 76.89432716721691%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%), radial-gradient(at 43.813028884863826% 20.033011484745856%, hsla(240.98360655737704, 100%, 11.96078431372549%, 1) 0%, hsla(240.98360655737704, 100%, 11.96078431372549%, 0) 100%), radial-gradient(at 94.19706276357569% 38.317956222506396%, hsla(240.68965517241378, 100%, 17.058823529411764%, 1) 0%, hsla(240.68965517241378, 100%, 17.058823529411764%, 0) 100%), radial-gradient(at 0.3693776164962026% 73.84858190557478%, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 0) 100%), radial-gradient(at 8.583550172547149% 84.3678773561652%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 97.34311519480674% 52.53353856544179%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%), radial-gradient(at 84.33451161406838% 54.54596788280699%, hsla(240.98360655737704, 100%, 11.96078431372549%, 1) 0%, hsla(240.98360655737704, 100%, 11.96078431372549%, 0) 100%), radial-gradient(at 82.57971760010247% 80.42416195752358%, hsla(240.68965517241378, 100%, 17.058823529411764%, 1) 0%, hsla(240.68965517241378, 100%, 17.058823529411764%, 0) 100%), radial-gradient(at 56.39921139609845% 52.188527319376334%, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 0) 100%), radial-gradient(at 70.29480573450981% 48.60416643375902%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 54.343717330470454% 64.62511541682892%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%);            ;
+                                                
+                                                      border-radius: 30px;
+                                                      
+                                                      border: .5PX solid #8c25bb;
+                                                      margin-top: 100px;
+                                                      
+                                                                                                }
+
+.project1{
+
+    margin-left: -800px;
+}
+                                                                                                
+
+.project{
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+  
+}     
+
+.p1txt1,.p1txt2,.p1txt3{
+
+
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(255, 241, 241);
+
+    
+}
+
+.p1txt1{
+
+    font-size: 30px;
+    padding: 90px;
+    font-weight: bold;
+    color: #8c25bb; 
+    background-image: linear-gradient(45deg, #ffffff 11%, #0022ff 72%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    
+}
+.p1txt2{
+
+    font-size: 15px;
+    padding: 70px;
+    font-weight: bold;
+    
+}
+
+.p1txt3{
+
+    display: block; 
+
+    padding-top: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.fraudlink{
+    font-family: 'Orbitron', sans-serif;
+    
+    display: block;
+    margin-top: 50px;
+    margin-left: 70px;
+    color: #8c25bb; 
+    background-image: linear-gradient(45deg, #ffffff 11%, #0022ff 72%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 35px rgb(210, 206, 217), 
+    0 0 70px rgba(138, 43, 226, 0.9), 
+    0 0 140px rgba(75, 0, 130, 0.8);
+   
+
+}
+.fraudlink:hover{
+
+    
+    color: rgb(252, 245, 245);
+    
+    text-shadow: 0 0 35px rgba(165, 115, 235, 1), 
+    0 0 70px rgba(138, 43, 226, 0.9), 
+    0 0 140px rgba(75, 0, 130, 0.8);
+}
+
+
+
+.p2txt1{
+
+    
+
+    font-size: 30px;
+    padding: 150px;
+    font-weight: bold;
+    color: #8c25bb; 
+    background-image: linear-gradient(45deg, #ffffff 11%, #0022ff 72%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+
+
+
+}
+
+.p2txt1,.p2txt2,.p2txt3{
+
+
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(255, 241, 241);
+
+    
+}
+
+.p2txt2{
+
+    margin-left: 30px;
+}
+
+.p2txt3{
+
+    display: block; 
+
+    padding-top: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.fraudlink2{
+    font-family: 'Orbitron', sans-serif;
+    
+    display: block;
+    margin-top: 60px;
+    margin-left: 70px;
+    color: #8c25bb; 
+    background-image: linear-gradient(45deg, #ffffff 11%, #0022ff 72%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 35px rgb(210, 206, 217), 
+    0 0 70px rgba(138, 43, 226, 0.9), 
+    0 0 140px rgba(75, 0, 130, 0.8);
+   
+
+}
+.fraudlink2:hover{
+
+    
+    color: rgb(252, 245, 245);
+    
+    text-shadow: 0 0 35px rgba(165, 115, 235, 1), 
+    0 0 70px rgba(138, 43, 226, 0.9), 
+    0 0 140px rgba(75, 0, 130, 0.8);
+}
+
+
+
+.projecttitle{
+
+    
+    font-size: 40px;
+    color: #ffffff; 
+    text-shadow: 0 0 35px rgba(165, 115, 235, 1), 
+    0 0 70px rgba(138, 43, 226, 0.9), 
+    0 0 140px rgba(75, 0, 130, 0.8);
+    
+    
+    font-family: 'Orbitron', sans-serif;
+    padding-left: 700px;
+}
+
+
+
+/* Certificates */
+
+.c1h1{
+    font-size: 40px;
+    color: #ffffff; 
+    text-shadow: 0 0 35px rgba(165, 115, 235, 1), 
+    0 0 70px rgba(138, 43, 226, 0.9), 
+    0 0 140px rgba(75, 0, 130, 0.8);
+    
+    
+    font-family: 'Orbitron', sans-serif;
+    padding-left: 650px;
+
+
+}
+
+.cer1{
+
+    width: 600px;
+    height: 300px;
+                                                  background: radial-gradient(at 13.673518488594926% 75.65585229687053%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 48.761624470356836% 76.89432716721691%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%), radial-gradient(at 43.813028884863826% 20.033011484745856%, hsla(240.98360655737704, 100%, 11.96078431372549%, 1) 0%, hsla(240.98360655737704, 100%, 11.96078431372549%, 0) 100%), radial-gradient(at 94.19706276357569% 38.317956222506396%, hsla(240.68965517241378, 100%, 17.058823529411764%, 1) 0%, hsla(240.68965517241378, 100%, 17.058823529411764%, 0) 100%), radial-gradient(at 0.3693776164962026% 73.84858190557478%, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 0) 100%), radial-gradient(at 8.583550172547149% 84.3678773561652%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 97.34311519480674% 52.53353856544179%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%), radial-gradient(at 84.33451161406838% 54.54596788280699%, hsla(240.98360655737704, 100%, 11.96078431372549%, 1) 0%, hsla(240.98360655737704, 100%, 11.96078431372549%, 0) 100%), radial-gradient(at 82.57971760010247% 80.42416195752358%, hsla(240.68965517241378, 100%, 17.058823529411764%, 1) 0%, hsla(240.68965517241378, 100%, 17.058823529411764%, 0) 100%), radial-gradient(at 56.39921139609845% 52.188527319376334%, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 0) 100%), radial-gradient(at 70.29480573450981% 48.60416643375902%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 54.343717330470454% 64.62511541682892%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%);            ;
+
+      border-radius: 30px;
+      margin-top: 100px;
+      border: .5PX solid #8c25bb;
+      margin-left: 450px;
+
+
+}
+
+.cert1{
+
+    width: 350px;
+    height: 240px;
+    padding: 30px;
+    
+
+
+}
+
+.h2c2{
+
+    font-size: 20px;
+    color: #ffffff; 
+    text-shadow: 0 0 35px rgba(165, 115, 235, 1), 
+    0 0 70px rgba(138, 43, 226, 0.9), 
+    0 0 140px rgba(75, 0, 130, 0.8);
+    
+    
+    font-family: 'Orbitron', sans-serif;
+    padding-left: 650px;
+
+    margin-left: -250px;
+    margin-top: -200px;
+
+}
+
+.cer1{
+
+    margin-left: 70px;
+}
+.cer2{
+
+    margin-left: 200px;
+}
+
+.cer2{
+
+    width: 600px;
+    height: 300px;
+                                                  background: radial-gradient(at 13.673518488594926% 75.65585229687053%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 48.761624470356836% 76.89432716721691%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%), radial-gradient(at 43.813028884863826% 20.033011484745856%, hsla(240.98360655737704, 100%, 11.96078431372549%, 1) 0%, hsla(240.98360655737704, 100%, 11.96078431372549%, 0) 100%), radial-gradient(at 94.19706276357569% 38.317956222506396%, hsla(240.68965517241378, 100%, 17.058823529411764%, 1) 0%, hsla(240.68965517241378, 100%, 17.058823529411764%, 0) 100%), radial-gradient(at 0.3693776164962026% 73.84858190557478%, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 0) 100%), radial-gradient(at 8.583550172547149% 84.3678773561652%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 97.34311519480674% 52.53353856544179%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%), radial-gradient(at 84.33451161406838% 54.54596788280699%, hsla(240.98360655737704, 100%, 11.96078431372549%, 1) 0%, hsla(240.98360655737704, 100%, 11.96078431372549%, 0) 100%), radial-gradient(at 82.57971760010247% 80.42416195752358%, hsla(240.68965517241378, 100%, 17.058823529411764%, 1) 0%, hsla(240.68965517241378, 100%, 17.058823529411764%, 0) 100%), radial-gradient(at 56.39921139609845% 52.188527319376334%, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 0) 100%), radial-gradient(at 70.29480573450981% 48.60416643375902%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 54.343717330470454% 64.62511541682892%, hsla(229.7560975609756, 100%, 8.03921568627451%, 1) 0%, hsla(229.7560975609756, 100%, 8.03921568627451%, 0) 100%);            ;
+
+      border-radius: 30px;
+      margin-top: 100px;
+      border: .5PX solid #8c25bb;
+      margin-left: 850px;
+      margin-top: -300px;
+
+
+}
+
+.cert2{
+
+    width: 350px;
+    height: 240px;
+    padding: 30px;
+    
+
+
+}
+
+.h2c3{
+
+    font-size: 20px;
+    color: #ffffff; 
+    text-shadow: 0 0 35px rgba(165, 115, 235, 1), 
+    0 0 70px rgba(138, 43, 226, 0.9), 
+    0 0 140px rgba(75, 0, 130, 0.8);
+    
+    
+    font-family: 'Orbitron', sans-serif;
+    padding-left: 650px;
+
+    margin-left: -250px;
+    margin-top: -200px;
+
+}
+
+
+
