@@ -21,6 +21,7 @@
 
 }
 
+
 body{
 
     background: #000000;  /* fallback for old browsers */
@@ -68,16 +69,16 @@ background: linear-gradient(to right, #0e0e0e, #000000); /* W3C, IE 10+/ Edge, F
     height: 370px;
     width: 310px;
     border-radius: 40%;
-    box-shadow: 0 0 6px rgba(165, 115, 235, 0.9), 
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.89), 
                 0 0 15px rgba(138, 43, 226, 0.8), 
-                0 0 30px rgba(75, 0, 130, 0.7); /* Layered Glow */
+                0 0 30px rgba(152, 67, 233, 0.7); /* Layered Glow */
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .homeimg1:hover {
-    box-shadow: 0 0 35px rgba(165, 115, 235, 1), 
-                0 0 70px rgba(138, 43, 226, 0.9), 
-                0 0 140px rgba(75, 0, 130, 0.8);
+    box-shadow: 0 0 35px rgb(255, 255, 255), 
+                0 0 70px rgba(180, 116, 240, 0.9), 
+                0 0 140px rgba(134, 13, 255, 0.8);
 }
 
 .homimg{
